@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## Publish your code to a website
 
 > In this task, you'll use a special feature of GitHub to publish your work to the web.
@@ -11,16 +15,16 @@ Add a file called `index.html`. Inside it, make a list of links to the pages you
 
 In the terminal, change to your project folder and type
 
-```
+{% highlight bash %}
 git branch
-```
+{% endhighlight %}
 
 to see a list of your branches. You should see only one branch called `master`.
 Now create a new branch called `gh-pages`, like this:
 
-```
+{% highlight bash %}
 git branch gh-pages
-```
+{% endhighlight %}
 
 This tells git to make a new branch called `gh-pages` based on your current branch (which is `master`).
 
@@ -28,9 +32,9 @@ Now do `git branch` again. What do you see? Does `git branch` tell you which bra
 
 To move into your new branch, type:
 
-```
+{% highlight bash %}
 git checkout gh-pages
-```
+{% endhighlight %}
 
 Any commits you make now will be on the `gh-pages` branch (and won't show up on `master`). You'll be using this branch to publish the work you are doing to [GitHub Pages](https://pages.github.com/).
 
@@ -38,17 +42,17 @@ Any commits you make now will be on the `gh-pages` branch (and won't show up on 
 
 To push this branch to github type:
 
-```
+{% highlight bash %}
 git push origin gh-pages
-```
+{% endhighlight %}
 
 GitHub notices that you've pushed a branch called `gh-pages`, takes the HTML, CSS, and JavaScript, and publishes it. This can take a minute or two. Your RedAndGreen work is now published at https://&lt;username&gt;.github.io/RedAndGreen.
 
 After you've done this you should checkout the master branch again by doing:
 
-```
+{% highlight bash %}
 git checkout master
-```
+{% endhighlight %}
 
 ## Files we don't need git to watch
 

@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Show a message when two or more random numbers match
 
 > Use JavaScript to show a message when some numbers match.
@@ -29,6 +33,6 @@ Display a message under the numbers that says
 
 To add all the files that have changed at once, you can use:
 
-```
+{% highlight bash %}
 git add .
-```
+{% endhighlight %}

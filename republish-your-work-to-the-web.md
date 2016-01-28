@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## Republish your work to the web
 
 > In this task, you'll use a GitHub Pages again to re-publish your work to the web.
@@ -12,15 +16,15 @@ When two branches have diverged (they have some commits the same and some commit
 
 First, checkout your `gh-pages` branch like this:
 
-```
+{% highlight bash %}
 git checkout gh-pages
-```
+{% endhighlight %}
 
 Now tell git to bring in your new work from your `master` branch like this:
 
-```
+{% highlight bash %}
 git merge master
-```
+{% endhighlight %}
 
 Now republish your work. If you're not sure how, have a look at [how you published your work the first time](publish-your-code-to-a-website.md#publishing-using-github-pages)?
 

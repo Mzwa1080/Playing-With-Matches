@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Show three different random numbers on page load
 
 > Add more HTML and use JavaScript to randomise the new elements.
@@ -6,10 +10,10 @@
 
 Move your JavaScript to an external file. The bottom of your `index.html` should look something like this:
 
-```html
+{% highlight html %}
 	<script type="text/javascript" src="script.js"></script>
 </body>
-```
+{% endhighlight %}
 
 * Add two more `div`s each with a number inside, and one extra `div` to contain them all.
 * Update your JavaScript to randomise the number in each of the three blocks to a number between 1 and 3.

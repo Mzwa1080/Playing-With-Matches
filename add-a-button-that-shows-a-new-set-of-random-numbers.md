@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Add a button that shows a new set of random numbers
 
 > Use JavaScript to update the HTML and show random numbers.

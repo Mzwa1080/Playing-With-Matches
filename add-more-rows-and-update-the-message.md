@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Add more rows and update the message
 
 > Add more rows of HTML and update JavaScript to check multiple rows.
