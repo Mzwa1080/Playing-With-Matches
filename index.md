@@ -56,14 +56,3 @@ We're going to build up a page that shows a series of random numbers, checks for
 ![matches](./img/matches.jpg)
 
 Work your way through these steps.
-
-1. [Show a number](./show-a-number.html).
-2. [Show a random number on page load](./show-a-random-number-on-page-load.html).
-3. [Show three different random numbers on page load](./show-three-different-random-numbers-on-page-load.html).
-4. [Show a message when two or more random numbers match](show-a-message-when-two-or-more-random-numbers-match.html).
-5. [Publish your code to the web](./publish-your-code-to-the-web.html).
-6. [Add a button that shows a new set of random numbers](add-a-button-that-shows-a-new-set-of-random-numbers.html).
-7. [Add more rows and update the message](add-more-rows-and-update-the-message.html).
-8. [Republish your work to the web](./republish-your-work-to-the-web.html).
-9. [Show a message when two or more numbers on the same row or column match](show-a-message-when-two-or-more-numbers-on-the-same-row-or-column-match.html).
-10. [Show a message when two or more numbers on the same row, column, or diagonal match](show-a-message-when-two-or-more-numbers-on-the-same-row-column-or-diagonal-match.html).
