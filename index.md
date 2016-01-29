@@ -35,7 +35,9 @@ In GitHub create a new repository called **Playing-With-Matches**:
 
 You will be presented with a few different setup options, you need to follow the instructions under:
 
-> ...or push an existing repository from the command line
+```
+...or push an existing repository from the command line
+```
 
 the parameters will be specific to your environment and you can copy and paste them into your terminal.
 
