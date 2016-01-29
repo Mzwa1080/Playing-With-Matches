@@ -1,16 +1,36 @@
 <footer class="site-footer">
   <nav class="main-nav" id="menu">
     <ol>
-      <li><a href="./show-a-number.html">Show a number</a></li>
-      <li><a href="./show-a-random-number-on-page-load.html">Show a random number on page load</a></li>
-      <li><a href="./show-three-different-random-numbers-on-page-load.html">Show three different random numbers on page load</a></li>
-      <li><a href="show-a-message-when-two-or-more-random-numbers-match.html">Show a message when two or more random numbers match</a></li>
-      <li><a href="./publish-your-code-to-the-web.html">Publish your code to the web</a></li>
-      <li><a href="add-a-button-that-shows-a-new-set-of-random-numbers.html">Add a button that shows a new set of random numbers</a></li>
-      <li><a href="add-more-rows-and-update-the-message.html">Add more rows and update the message</a></li>
-      <li><a href="./republish-your-work-to-the-web.html">Republish your work to the web</a></li>
-      <li><a href="show-a-message-when-two-or-more-numbers-on-the-same-row-or-column-match.html">Show a message when two or more numbers on the same row or column match</a></li>
-      <li><a href="show-a-message-when-two-or-more-numbers-on-the-same-row-column-or-diagonal-match.html">Show a message when two or more numbers on the same row, column, or diagonal match</a></li>
+      <li{% if page.url == '/show-a-number.html' %} class="active"{% endif %}>
+        <a href="./show-a-number.html">Show a number</a>
+      </li>
+      <li{% if page.url == '/show-a-random-number-on-page-load.html' %} class="active"{% endif %}>
+        <a href="./show-a-random-number-on-page-load.html">Show a random number on page load</a>
+      </li>
+      <li{% if page.url == '/show-three-different-random-numbers-on-page-load.html' %} class="active"{% endif %}>
+        <a href="./show-three-different-random-numbers-on-page-load.html">Show three different random numbers on page load</a>
+      </li>
+      <li{% if page.url == '/show-a-message-when-two-or-more-random-numbers-match.html' %} class="active"{% endif %}>
+        <a href="show-a-message-when-two-or-more-random-numbers-match.html">Show a message when two or more random numbers match</a>
+      </li>
+      <li{% if page.url == '/publish-your-code-to-the-web.html' %} class="active"{% endif %}>
+        <a href="./publish-your-code-to-the-web.html">Publish your code to the web</a>
+      </li>
+      <li{% if page.url == '/add-a-button-that-shows-a-new-set-of-random-numbers.html' %} class="active"{% endif %}>
+        <a href="add-a-button-that-shows-a-new-set-of-random-numbers.html">Add a button that shows a new set of random numbers</a>
+      </li>
+      <li{% if page.url == '/add-more-rows-and-update-the-message.html' %} class="active"{% endif %}>
+        <a href="add-more-rows-and-update-the-message.html">Add more rows and update the message</a>
+      </li>
+      <li{% if page.url == '/republish-your-work-to-the-web.html' %} class="active"{% endif %}>
+        <a href="./republish-your-work-to-the-web.html">Republish your work to the web</a>
+      </li>
+      <li{% if page.url == '/show-a-message-when-two-or-more-numbers-on-the-same-row-or-column-match.html' %} class="active"{% endif %}>
+        <a href="show-a-message-when-two-or-more-numbers-on-the-same-row-or-column-match.html">Show a message when two or more numbers on the same row or column match</a>
+      </li>
+      <li{% if page.url == '/show-a-message-when-two-or-more-numbers-on-the-same-row-column-or-diagonal-match.html' %} class="active"{% endif %}>
+        <a href="show-a-message-when-two-or-more-numbers-on-the-same-row-column-or-diagonal-match.html">Show a message when two or more numbers on the same row, column, or diagonal match</a>
+      </li>
     </ol>
   </nav>
 </footer>
