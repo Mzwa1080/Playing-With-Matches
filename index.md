@@ -6,7 +6,7 @@ layout: default
 
 We'll be making a web page with HTML, CSS, and JavaScript. Let's have a look at how these three pieces fit together.
 
-![web triangle](https://cloud.githubusercontent.com/assets/1239497/12510480/cf92cf68-c112-11e5-91c5-7d55024bf083.png)
+![web triangle](./img/web-triangle.png)
 
 The structure of every web page looks a bit like this. It's a triangle because the balance should mostly be like that: lots of HTML, quite a lot of CSS, and as little JavaScript as possible.
 
