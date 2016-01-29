@@ -124,6 +124,11 @@ code:not([class]) {
   border-radius: 0.25em;
 }
 
+img {
+  margin: 0 auto;
+  display: block;
+}
+
 /* layout */
 
 @media (min-width: 60em) {
