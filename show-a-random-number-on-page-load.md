@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Show a random number on page load
+<h1 data-task-number="2">Show a random number on page load</h1>
 
 > Use JavaScript to generate a random number and update HTML and use external CSS.
 

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Show three different random numbers on page load
+<h1 data-task-number="3">Show three different random numbers on page load</h1>
 
 > Add more HTML and use JavaScript to randomise the new elements.
 

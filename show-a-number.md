@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Show a number
+<h1 data-task-number="1">Show a number</h1>
 
 > Create a web page and apply CSS using an embedded style block.
 

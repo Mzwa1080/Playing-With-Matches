@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Add more rows and update the message
+<h1 data-task-number="7">Add more rows and update the message</h1>
 
 > Add more rows of HTML and update JavaScript to check multiple rows.
 

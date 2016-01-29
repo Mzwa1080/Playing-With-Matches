@@ -53,6 +53,13 @@ h1, h2, h3, h4, h5, h6 {
 main {
   padding: 1em;
   background-color: #fff;
+  [data-task-number] {
+    text-transform: none;
+    &:before {
+      content: attr(data-task-number) "/10: ";
+      color: #666;
+    }
+  }
 }
 
 .logo {

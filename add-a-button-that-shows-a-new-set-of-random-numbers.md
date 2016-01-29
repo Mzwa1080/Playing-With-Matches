@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Add a button that shows a new set of random numbers
+<h1 data-task-number="6">Add a button that shows a new set of random numbers</h1>
 
 > Use JavaScript to update the HTML and show random numbers.
 

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Show a message when two or more numbers on the same row, column, or diagonal match
+<h1 data-task-number="10">Show a message when two or more numbers on the same row, column, or diagonal match</h1>
 
 > Use JavaScript to check for diagonal matches.
 

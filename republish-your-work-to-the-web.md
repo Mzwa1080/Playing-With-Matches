@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Republish your work to the web
+<h1 data-task-number="8">Republish your work to the web</h1>
 
 > In this task, you'll use a GitHub Pages again to re-publish your work to the web.
 
