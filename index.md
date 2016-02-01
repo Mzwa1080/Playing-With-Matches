@@ -57,4 +57,4 @@ We're going to build up a page that shows a series of random numbers, checks for
 
 ![matches](./img/matches.jpg)
 
-Work your way through these steps.
+Work your way through the 10 steps, starting with [Show a number](show-a-number.html).
