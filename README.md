@@ -30,7 +30,7 @@ In GitHub create a new repository called **Playing-With-Matches**:
 
 * click on the + sign left from your profile name;
 * select **New repository**;
-* enter the repository name **RedAndGreen**;
+* enter the repository name **Playing-With-Matches**;
 * now click **Create repository**
 
 You will be presented with a few different setup options, you need to follow the instructions under:
