@@ -46,7 +46,7 @@ To push this branch to github type:
 git push origin gh-pages
 {% endhighlight %}
 
-GitHub notices that you've pushed a branch called `gh-pages`, takes the HTML, CSS, and JavaScript, and publishes it. This can take a minute or two. Your RedAndGreen work is now published at https://&lt;username&gt;.github.io/RedAndGreen.
+GitHub notices that you've pushed a branch called `gh-pages`, takes the HTML, CSS, and JavaScript, and publishes it. This can take a minute or two. Your Playing-With-Matches work is now published at https://&lt;username&gt;.github.io/Playing-With-Matches.
 
 After you've done this you should checkout the master branch again by doing:
 
