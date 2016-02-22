@@ -52,4 +52,25 @@ To commit your changes to git, run `git commit -m "my message"`. The message sho
 
 ## Push it to GitHub
 
+In GitHub create a new repository called **Playing-With-Matches**:
+
+* click on the + sign left from your profile name;
+* select **New repository**;
+* enter the repository name **Playing-With-Matches**;
+* now click **Create repository**
+
+You will be presented with a few different setup options, you need to follow the instructions under:
+
+```
+...or push an existing repository from the command line
+```
+
+the parameters will be specific to your environment and you can copy and paste them into your terminal.
+
+The command would look like this, with your own git username:
+
+```
+git remote add origin git@github.com:<username>/Playing-With-Matches.git
+```
+
 To send your code to GitHub, run `git push -u origin master`. You'll only need the `-u` the first time you push: it means set (and remember) that the master branch on my machine and the master branch on Github are linked. After that, you can use `git push origin master` or just `git push`.
