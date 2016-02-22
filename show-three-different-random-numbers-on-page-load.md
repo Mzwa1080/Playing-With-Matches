@@ -15,7 +15,7 @@ Move your JavaScript to an external file. The bottom of your `index.html` should
 </body>
 {% endhighlight %}
 
-* Add two more `div`s each with a number inside, and one extra `div` to contain them all.
+* Add another `div` for a new row. Inside that, add two more `div`s, each with a number inside.
 * Update your JavaScript to randomise the number in each of the three blocks to a number between 1 and 3.
 
 Think about the [DRY (Don't Repeat Yourself)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) principle: how can you re-use code you've already written?
