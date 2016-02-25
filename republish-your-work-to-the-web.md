@@ -4,11 +4,9 @@ layout: default
 
 <h1 data-task-number="8">Republish your work to the web</h1>
 
-> In this task, you'll use a GitHub Pages again to re-publish your work to the web.
+> In this task, you'll use GitHub Pages again to re-publish your work to the web.
 
-Update your `index.html` to link to your task 4, 5, and 6 pages. Remember to add a link to `task4.html`, `task5.html`, and `task6.html` that links back to `index.html`.
-
-Look at your `gh-pages` branch. Does it have your work from tasks 4, 5, and 6? How can you check this?
+Look at your `gh-pages` branch. Does it have your new work there? How can you check this?
 
 You can use `git branch` to check what branch you are on, `git log` to see a list of commits you have made, and `git checkout <branchname>` to switch between branches.
 
