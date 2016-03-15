@@ -12,6 +12,7 @@
 body {
   font-family: sans-serif;
   background-color: #ddd;
+  padding: 1em;
 }
 
 .wf-active body {
@@ -65,11 +66,14 @@ main {
 .logo {
   margin-right: 5%;
   margin-bottom: 1em;
+  display: block;
 }
 
 .menu {
   padding: 0.25em 0.5em;
   border-radius: 0.25em;
+  margin: 1em 0;
+  display: inline-block;
   &:link, &:visited {
     background-color: #8bc53f;
     color: #fff;
@@ -89,7 +93,9 @@ main {
     margin: 0;
     list-style: none;
     padding: 0;
-    counter-reset: mainnav;
+    > ul a, ol a {
+      padding-left: 1.8em;
+    }
   }
   .active {
     background-color: #666;
@@ -97,12 +103,6 @@ main {
   a {
     display: block;
     padding: 0.75em 0.5em;
-    counter-increment: mainnav;
-    &:before {
-      content: counter(mainnav) ".";
-      margin-right: 0.5em;
-    }
-
     &:link, &:visited {
       color: #fff;
       text-decoration: none;
@@ -111,6 +111,16 @@ main {
       color: #fff;
       background-color: #888;
       text-decoration: underline;
+    }
+  }
+  ol {
+    counter-reset: mainnav;
+    a {
+      counter-increment: mainnav;
+      &:before {
+        content: counter(mainnav) ".";
+        margin-right: 0.5em;
+      }
     }
   }
 }
@@ -125,15 +135,27 @@ blockquote {
   border-radius: 0.25em;
 }
 
-code:not([class]) {
+code:not([class]), .highlighter-rouge {
   padding: 0.25em;
   background-color: #eee;
   border-radius: 0.25em;
+  margin-bottom: 1em;
+}
+
+blockquote {
+  margin-bottom: 1em;
+}
+
+td,
+th {
+  padding: 0.2em;
 }
 
 img {
   margin: 0 auto;
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* layout */
@@ -142,16 +164,44 @@ img {
   .menu {
     display: none;
   }
-  .logo {
-    display: block;
-  }
   .site-header,
   .site-footer {
     float: left;
+    clear: left;
     width: 35%;
   }
   main {
     float: right;
     width: 60%;
   }
+}
+
+.single {
+  body {
+    padding: 0;
+  }
+  @media (min-width: 60em) {
+    .site-header,
+    .site-footer {
+      float: none;
+      clear: none;
+      width: auto;
+    }
+    main {
+      float: none;
+      width: auto;
+      margin-right: 25%;
+      margin-left: 25%;
+    }
+  }
+}
+
+.pull-left {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+.pull-right {
+  float: right;
+  margin: 0 0 1em 1em;
 }
