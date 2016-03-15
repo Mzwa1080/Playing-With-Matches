@@ -53,4 +53,4 @@ git checkout master
 
 ## Files we don't need git to watch
 
-Let's learn a bit more about another part of git: [ignoring files](gitignore.md).
+Let's learn a bit more about another part of git: [ignoring files](gitignore.html).
