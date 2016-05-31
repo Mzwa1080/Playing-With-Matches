@@ -24,7 +24,7 @@ Every time the page loads, you should see three new random numbers. Huzzah!
 
 ## Add files and push them to GitHub
 
-Once you're done, add your changes to git by using similar commands to the ones you used for the previous tasks. If you want to add multiple files at the same time, you can do it like this:
+Once you're done, add your changes to git by using similar commands to the ones you used for the earlier tasks. If you want to add multiple files at the same time, you can do it like this:
 
 ```
 git add index.html script.js

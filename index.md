@@ -14,10 +14,11 @@ At the base you have your **HTML**. It's the **structured content** of the page:
 
 On top of that you have your **CSS**. This handles the **presentation**: colours, fonts, layout. Note that it's a separate layer: see, there's a line there and everything. It exists apart from the structure and content (the HTML) of the page.
 
-At the very top, in the tiny triangle, is the **JavaScript** (JS). This adds behaviour and interactions to the page. It's the most fragile part of the three. An error in the code (perhaps introduced at midnight by a sleepy developer as a "quick fix") can break the whole block of the JS.
+At the top, in the tiny triangle, is the **JavaScript** (JS). This adds behaviour and interactions to the page. It's the most fragile part of the three. An error in the code (perhaps introduced at midnight by a sleepy developer as a "quick fix") can break the whole block of the JS.
 
 ## Local set up
 
+<!--codex ignore easily-->
 You should have a projects folder in your home directory. It's good practice to create all your different projects in one place on your PC so that you can find them easily.
 
 In your projects folder:

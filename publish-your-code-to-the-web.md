@@ -6,7 +6,7 @@ layout: default
 
 > In this task, you'll use a special feature of GitHub to publish your work to the web.
 
-Now we're going to publish your work to a website using [GitHub Pages](https://pages.github.com/), so that you can easily demo your work. If you have a git branch called `gh-pages` in a repository that you have pushed to GitHub, GitHub will publish the static HTML, CSS, and JavaScript for you at at `<username>.github.io`. You can use this for any static content, but not for applications that require a server.
+Now we're going to publish your work to a website using [GitHub Pages](https://pages.github.com/), so that you can demo your work. If you have a git branch called `gh-pages` in a repository that you have pushed to GitHub, GitHub will publish the static HTML, CSS, and JavaScript for you at at `<username>.github.io`. You can use this for any static content, but not for applications that require a server.
 
 ## Branches
 
@@ -37,12 +37,13 @@ Any commits you make now will be on the `gh-pages` branch (and won't show up on 
 
 ## Publishing using GitHub Pages
 
-To push this branch to github type:
+To push this branch to GitHub type:
 
 {% highlight bash %}
 git push origin gh-pages
 {% endhighlight %}
 
+<!--codex ignore https-->
 GitHub notices that you've pushed a branch called `gh-pages`, takes the HTML, CSS, and JavaScript, and publishes it. This can take a minute or two. Your Playing-With-Matches work is now published at https://&lt;username&gt;.github.io/Playing-With-Matches.
 
 After you've done this you should checkout the master branch again by doing:
