@@ -33,6 +33,6 @@ Display a message under the numbers that says
 
 To add all the files that have changed at once, you can use:
 
-{% highlight bash %}
+```
 git add .
-{% endhighlight %}
+```

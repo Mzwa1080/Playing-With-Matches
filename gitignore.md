@@ -10,12 +10,12 @@ You can add only the files you want using `git add` for each file. Sometimes you
 
 If you wanted to ignore any files in a directory called `tmp`, your `gitignore` would look like this
 
-{% highlight bash %}
+```
 tmp
-{% endhighlight %}
+```
 
 If you wanted to ignore any files that end with `~`, your `gitignore` would look like this
 
-{% highlight bash %}
+```
 *~
-{% endhighlight %}
+```

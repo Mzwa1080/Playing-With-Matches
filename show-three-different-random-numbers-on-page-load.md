@@ -10,10 +10,10 @@ layout: default
 
 Move your JavaScript to an external file. The bottom of your `index.html` should look something like this:
 
-{% highlight html %}
+```html
 	<script type="text/javascript" src="script.js"></script>
 </body>
-{% endhighlight %}
+```
 
 * Add another `div` for a new row. Inside that, add two more `div`s, each with a number inside.
 * Update your JavaScript to randomise the number in each of the three blocks to a number between 1 and 9.

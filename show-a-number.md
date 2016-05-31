@@ -10,7 +10,7 @@ layout: default
 
 Our first step is to make a web page with a number on it. Create a file called `index.html` that looks something like this:
 
-{% highlight html %}
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,7 +24,7 @@ Our first step is to make a web page with a number on it. Create a file called `
 	<!-- HTML goes here -->
 </body>
 </html>
-{% endhighlight %}
+```
 
 Now you'll write some HTML inside the `body` tag and some CSS in the `style` tag of the HTML file.
 
@@ -35,7 +35,7 @@ Add a `div` with a number of your choice inside. Add some styles to make it big 
 
 Run `git status` to see what has changed. You should see something like:
 
-{% highlight bash %}
+```
 On branch master
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
@@ -43,7 +43,7 @@ Untracked files:
 	index.html
 
 nothing added to commit but untracked files present (use "git add" to track)
-{% endhighlight %}
+```
 
 Now run `git add index.html` to track that file. That tells git to watch it for changes.
 
