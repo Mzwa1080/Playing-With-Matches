@@ -14,7 +14,7 @@ Now that your page has three different random numbers, sometimes they'll match. 
 
 Highlight the numbers that are the matching ones by
 
-* using JS to add a class (for example, `highlight`) to the appropriate `div`s in the HTML;
+* using JS to add a class (for example, `highlight`) to the correct `div`s in the HTML;
 * adding styles in your CSS file that use your new class(es) (try changing the `color`, `background-color`, `border`, and more!).
 
 For adding and removing classes, have a look at:
@@ -33,6 +33,6 @@ Display a message under the numbers that says
 
 To add all the files that have changed at once, you can use:
 
-{% highlight bash %}
+```
 git add .
-{% endhighlight %}
+```

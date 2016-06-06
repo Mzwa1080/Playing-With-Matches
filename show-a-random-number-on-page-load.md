@@ -14,20 +14,20 @@ Our next step is to use JavaScript to make our number random and changing rather
 
 Update your `index.html` by moving your CSS to an external file, like this:
 
-{% highlight html %}
+```html
    <!-- Your CSS goes in the styles.css file -->
 	<link rel="stylesheet" href="styles.css">
 </head>
-{% endhighlight %}
+```
 
 Add a space for your JavaScript at the bottom of the page, like this:
 
-{% highlight html %}
+```html
   <script type="text/javascript">
 		// JavaScript code goes here at the bottom
 	</script>
 </body>
-{% endhighlight %}
+```
 
 ## Write a random number function
 
