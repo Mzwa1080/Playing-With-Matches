@@ -1,5 +1,6 @@
 ---
 layout: default
+unitstandard: 115362-SO2-AC1
 ---
 
 <h1 data-task-number="1">Show a number</h1>
@@ -51,6 +52,8 @@ If there are files that you don't want git to track, don't add them using `git a
 
 <!--codex ignore just-->
 To commit your changes to git, run `git commit -m "my message"`. The message should be something to remind you of the changes you've just made. You might write `git commit -m "Added my first number"`.
+
+You should commit your code early and often. A commit should contain a small but meaningful change to your code, and should be a complete and working piece of code. (This will be especially important when you're working on a shared codebase! Small commits are easier to work with and merge together.)
 
 ## Push it to GitHub
 
